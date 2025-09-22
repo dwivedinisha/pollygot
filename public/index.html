@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="../assets/parrot.png" alt="Parrot Logo" class="logo">
+                <div class="headings">
+                    <p class="head">PollyGlot</p>
+                    <p class="text">Perfect Translation Every Time</p>
+                </div>
+            </header>
+            <main>
+                <div class="content">
+                    <p id="text1">Text to translate 👇</p>
+                    <textarea placeholder="Ask your query...." id="query"></textarea>
+                    <p id="text2">Select language 👇</p>
+                    <div class="selectionblock" id="area2">
+                        <label class="language-option">
+                            <input type="radio" name="language" value="french" checked>
+                            French
+                            <img src="/assets/fr-flag.png" alt="French Flag" class="flag">
+                        </label>
+                        <label class="language-option">
+                            <input type="radio" name="language" value="spanish" checked>
+                            Spanish
+                            <img src="/assets/sp-flag.png" alt="Spanish Flag" class="flag">
+                        </label>
+                        <label class="language-option">
+                            <input type="radio" name="language" value="japanese" checked>
+                            Japanese
+                            <img src="/assets/jpn-flag.png" alt="Japanese Flag" class="flag">
+                        </label>
+                    </div>
+                    <div id="footer-text" class="button">
+                        <button class="translate" id="translate">Translate</button>
+                    </div>
+            </main>
+        </div>
+        <!-- Your HTML here -->
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
